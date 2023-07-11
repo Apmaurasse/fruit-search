@@ -1,0 +1,41 @@
+.search-container {
+  position: relative;
+  display: inline-block;
+
+
+
+}
+
+.suggestions {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.suggestions a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.search-container:hover .suggestions {
+  display: block;
+}
+
+.suggestions a.highlight {
+  background-color: rgb(181, 82, 12);
+}
+
+body {
+  background: linear-gradient(to right, rgb(255, 251, 0), rgb(255, 98, 0));
+  padding: 48vh;
+}
+
+#fruit {
+  background-color: transparent; 
+}
+
